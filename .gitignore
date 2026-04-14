@@ -1,1 +1,24 @@
+# Mainsail managed symlink — overwritten on each boot
+mainsail.cfg
+
+# Moonraker backup
+.moonraker.conf.bkp
+
+# Klipper SAVE_CONFIG backup snapshots
 printer-*.cfg
+
+# Crowsnest backup
+crowsnest.conf.bak.*
+
+# Shake&Tune plugin (managed by update_manager)
+K-ShakeTune/
+
+# Shake&Tune output graphs
+ShakeTune_results/
+
+# KlipperScreen auto-generated app state
+KlipperScreen.conf
+
+# Python bytecode
+__pycache__/
+*.pyc
